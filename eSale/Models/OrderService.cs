@@ -40,7 +40,6 @@ namespace eSale.Models
         {
             Models.Order result = new Order();
             result.CustomerID = "GSS";
-
             return result;
         }
 

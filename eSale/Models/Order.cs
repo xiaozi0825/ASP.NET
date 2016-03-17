@@ -17,14 +17,10 @@ namespace eSale.Models
         /// </summary>
         public string CustomerID { get; set; }
 
-
-
         /// <summary>
         /// 業務(員工)代號
         /// </summary>
         public int EmployeeID { get; set; }
-
-
 
         /// <summary>
         /// 訂單日期
@@ -45,8 +41,6 @@ namespace eSale.Models
         /// 出貨公司代號
         /// </summary>
         public int ShipperID { get; set; }
-
-
 
         /// <summary>
         /// 運費

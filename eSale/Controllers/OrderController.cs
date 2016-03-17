@@ -16,5 +16,11 @@ namespace eSale.Controllers
             ViewBag.CustomerID = order.CustomerID;
             return View();
         }
+
+        public ActionResult Index2(string id)
+        {
+            ViewBag.id = id;
+            return View();
+        }
     }
 }
